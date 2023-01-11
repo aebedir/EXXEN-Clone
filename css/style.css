@@ -1,0 +1,106 @@
+html{
+   
+    overflow: auto;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+.container{
+    width: 66%;
+    padding: 10px;
+}
+
+.nav-link{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.exxen-spor{
+    background-color: black;
+}
+.uye-ol{
+    border: 1px black solid !important;
+    color: black;
+}
+.exxen-spor, .uye-ol{
+    font-size: 14px;
+    padding: 10px 7px;
+    margin-left: 5px;
+}
+.form{
+    background-color: #121212;    
+}
+input{
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+}
+::placeholder{
+    font-weight: bold;
+    color: black;
+}
+.ekranlar{
+    width: 60%;
+}
+.store-link{
+    width: 40%;
+}
+.store-link div{
+    padding: 0 7px;
+    margin: 0;
+}
+.yardim{
+    background-color: #090909 ;
+}
+.fa-brands{
+    font-size: 25px;
+}
+@media screen and (max-width:1199px){
+    .container{
+        width: 80%;
+    }
+    .exxen-spor, .uye-ol{        
+        font-size: 16px;
+    }    
+    .yazi{
+        font-size: 20px;
+    }
+    .store-link{
+        width: 80%;
+    }
+}
+@media screen and (max-width:716px) {
+    .container{
+        width: 80%;
+    }
+    .yazi{
+        font-size: 18px;
+    }
+    .store-link{
+        width: 90%;
+    }
+}
+@media screen and (max-width:572px) {
+    .container{
+        width: 100%;
+    }
+    .yazi{
+        font-size: 16px;
+    }
+    .fa-brands{
+        font-size: 30px;
+    }
+    .store-link{
+        width: 40%;
+    }
+}
+@media screen and (max-width:500px) {
+    .yazi{
+        font-size: 20px;
+    }
+    .container{
+        width: 100%;
+    }
+}
